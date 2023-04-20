@@ -42,4 +42,7 @@ Curso de Desarrollo Web en Html5 y Css3 - Centro de e-Learning UTN.BA
    - Adaptación a diferentes dispositivos
    - Estar online (en el subdominio creado en el módulo 1)
 
-   Fecha de entrega: **29 de Junio de 2021**
+   Fecha de entrega: **29 de Junio de 2021**    
+
+
+https://sofiaoferrari.github.io/BlogFotografico/
