@@ -1,0 +1,797 @@
+@import url(https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap);
+
+/* SECCION INICIO */
+
+body {
+    margin: 0;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+section, footer, #cabecera{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header{
+    background: white;
+    width: 100%;
+    position: fixed;
+    top: 0px; 
+    left: 0px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    max-width: 100%;
+}
+
+#logo {
+    width: 70px;
+    height: 60px;
+    background-color: white;
+    float: left;
+    padding-right: 1px;
+}
+
+#logo img {
+    margin-left: 19%;
+    margin-top: 5%;
+    height: 90%;
+    width: 80%;
+    border-radius: 100%;
+}
+
+#botonera {
+    height: 60px;
+    width: 889px;
+    background-color: white;
+    float: right;
+}
+
+#botonera ul {
+    margin-left: 5px;
+    padding-left: 0px;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;    
+}
+
+ul li a {
+	text-decoration: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: lighter;
+    text-align: center;
+	display: inline-block;
+    line-height: 30px;
+	height: 60px;
+    width: 115px;
+}
+
+ul li a:hover {
+	text-transform: uppercase;
+}
+
+section#inicio {
+    background-color: white;
+    height: 900px;
+}
+
+div.imagen1 {
+    padding-top: 100px;
+    background-image: url("https://im.vsco.co/aws-us-west-2/711ca5/6116463/5b271fa4c1b1636449376863/vsco5b271faf5ac9a.jpg?w=960");
+    background-size:cover;
+    background-position-y: 25%;
+    background-color: rgba(245, 245, 245, 0.7);
+    width: 960px;
+    height: 400px;
+}
+
+.texto1 {
+    width: 380px;
+    height:60px;
+    float: left;
+    margin-left: 280px;
+    margin-right: auto;
+    margin-top: 130px; 
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 38px;
+    font-weight: 500;
+    text-align: center;
+    text-shadow:  4px 4px 5px rgba(0,0,0,0.9);
+}
+
+.imagen2 {
+    background-color: rgba(245, 245, 245, 0.7);
+    width: 320px;
+    height: 380px;
+    float: left;
+}
+
+.imagen3 {
+    background-color: rgba(245, 245, 245, 0.7);
+    width: 480px;
+    height: 220px;
+    float: left;
+}
+
+div.imagen3 img{
+   max-height: 100%;
+   min-height: 100%;
+   min-width: 100%;
+}
+
+footer {
+    clear: left;
+    height: 90px;
+    background-color: rgba(245, 245, 245, 0.7);
+    /* background-color: black; */
+
+}
+
+#redes {
+    height: 60px;
+    width: 160px;
+    /* float: left; */
+    position: relative;
+    top:0px;
+}
+
+#legal {
+    margin-top: 5%;
+    padding-left: 5px;
+    display: inline-block;
+    height: 20px;
+    width: 268px;
+    position:relative;
+    bottom: 40px;
+    left: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:medium;
+}
+
+#info_contacto{
+    height: 90px;
+    width: 400px;
+    background-color: rgba(214, 211, 211, 0.2);
+    position: relative;
+    left: 560px;
+    bottom: 144px;
+}
+
+#redes ul {
+    display: inline-block;
+    margin-left:20px;
+    margin-top: 20px;
+    padding-left: 0px;
+}
+
+#redes ul a {
+    display:inline;
+}
+
+#redes img{
+    height: 25px;
+    width: auto;
+    margin-right: 20px;
+}
+
+#datos {
+    height: 60px;
+    width: auto;
+    position: absolute;
+    top: 20px;
+    left: 6%;
+}
+
+#datos p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 440;
+    margin-top: 0px;
+    height: 20px;
+    width: auto;
+}
+
+img#mail {
+    height: 22px;
+    width: auto;
+    margin-right: 8px;
+    margin-top: 1px;
+}
+
+#datos a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    font-size: 16px;
+    position: inherit;
+    font-weight: 440;
+
+}
+
+/************************** SECCION CONTACTO ***********************************/
+
+#contacto {
+    padding-top: 55px;
+    height: 900px;
+    /* background-image: url(https://lh3.googleusercontent.com/XRMPHNN9wxm1fI1ljQeSqYJADhSFaaYPL1vKRDGZ_G8jKkHo3wQeS37relkT72tYsMjeKWb_306g24_Z9hXWWkzOHzEQJDb_4csTWWXVYmc7I5XhJCwYfy0G28q8ksq1bGtXvqAC_vx-BvGEkxZy1E8pUkyWL4OfRe9tD2dgIs71pUx9SFzkD5gHW_d8knwTGSdaplYG1XCjm8L3XaCZK6HR73RzOfRb3neEF8A_NAB_aF1N9x8tRjJKMlCvXuk8XwuIRt4cGc1AzwnEfpdUArPQVEfNqp0gS6uNvBFalFUV4vPTZikAuXHPUpJFtTvGwooSOfh2DrtlyReaiPFv1XpjbKrKbIQIedIENcc3M9hS-2WzMrl01cnikEzkMVCWudz_9F4nCamw-TcMqAMm-pnHcaXL-LgTgFX07NRYkA2xY1BeVpTcs7tCsoE1cS1dy2ovq1k0zsAfKmRmBN155hZ7Juf5Ki81Pw6hJ-arG7NCh6qtHnVlmpZJh03wV_UUm4FjHAdVz7BBN-MxRGNDln1MCorq4-AlvqiVp4S9XE5LC7x3KQ7cIypujJ8elQQd1daB_jBwIskeA5LQtJuQ81KwOAeVTvpm35a6-f0p9FOhTkGj-5i5ELhGmRi_Q1zG_blVW2D5lIUP1lyoLLdWPiaPSG2-DqV05VQIITVYAnkHi72lE5CXz-jP5pm5i0c31LUq1vyeZHKWU-yLdg0u87B9=w1155-h866-no?authuser=0); */
+    /* background-size: cover; */
+    background-color: rgba(248, 241, 241, 0.3);
+}
+
+h2{
+    font-family: 'Karla', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:330;
+    font-size: 45px;
+    text-decoration: 2px underline;
+    text-align: center;
+}
+
+#formulario {
+    height: 620px;
+    width: 70%;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid black; */
+    /* background-color: rgba(245, 245, 245, 0.7); */
+    background-color: rgba(253, 232, 232, 0.4);
+    border-radius: 15px; 
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.4);
+}
+
+#formulario li{
+    text-align: left;
+    margin-right: 15px;
+}
+
+li.nombre,  h4{
+    font-size: 20px;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight:500;
+    margin-bottom: 18px;
+}
+
+input[type=text] {
+    height: 25px;
+    width: 42%; 
+    margin-left: 4px;
+    border: 1px solid black;
+    border-radius: 5px; 
+}
+
+input[type=radio] {
+    margin-right: 4px;
+}
+
+textarea {
+    border: 1px solid black;
+    border-radius: 5px; 
+    font-size: 15px;
+    width: 99%;
+    max-width: 99%;
+    min-width: 55%;
+    max-height: 36%;
+    min-height: 35%;
+}
+
+::placeholder{
+    text-indent: 1.5%;
+    font-size: 15px;
+}
+
+#correo {
+    font-size: 15px;
+    width: 55%;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px; 
+}
+
+input[type=submit] {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+    width: 80px; 
+    color: white;
+    background:rgb(252, 148, 148); 
+    border: 1px solid rgb(243, 114, 114);
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 5px; 
+}
+
+input[type=submit]:hover {
+    background:rgb(250, 189, 189); 
+    cursor:pointer;
+    font-size: 22px;
+}
+
+/***************************************** SECCION VIAJES ****************************************/
+
+#viajes {
+    padding-top: 45px;
+    height: 900px;
+    padding-bottom: 120px;
+    background-color: rgba(248, 241, 241, 0.3);
+}
+
+#galeria {
+    margin-top: 50px;
+}
+
+.imagen4{
+    display: inline-block;
+    height: 340px;
+    width: 240px;
+    background-color: white;
+    padding: 1%;
+    padding-bottom: 2%;
+    margin: 3%;
+    margin-top: 0;
+    margin-bottom: 7%;
+    box-shadow: 3px 4px 12px 0px rgba(68, 49, 49, 0.6);
+}
+
+#viajes img:hover {
+    height: 90%;
+    margin: 2.5%;
+    width: auto;
+}
+
+/*********************************************************************************************/
+/***********************  R E S P O N S I V E   D E S I G N  ********************************/
+/*********************************************************************************************/
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+    /* SECCION INICIO */
+
+section, footer, #cabecera{
+    width: 580px;
+}
+
+header{
+    height: 50px;
+}
+
+#logo {
+    width: 60px;
+    height: 50px;
+}
+
+#logo img {
+    margin-top: 8%;
+    height: 80%;
+    width: 70%;
+}
+
+#botonera {
+    height: 50px;
+    width: 518px;
+    float: left;
+}
+
+#botonera ul {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+ul li a {
+    font-size: 14px;
+    line-height: 50px;
+	height: 50px;
+    width: 63px;
+}
+
+ul li a:hover {
+    font-size: 10px;
+}
+
+section#inicio {
+    height: auto;
+} 
+
+div.imagen1 {
+    padding-top: 60px;
+    width: auto;
+    height: 280px;
+}
+
+.texto1 {
+    width: 340px;
+    height:40px;
+    margin-left: 148px;
+    margin-top: 80px; 
+}
+
+h1 {
+    font-size: 36px;   
+}
+
+.imagen2 {
+    width: 193.3px;
+    height: 258.3px;
+}
+
+.imagen3 {
+    width: 290px;
+    height: 130px;
+}
+
+footer {
+    height: 70px;
+}
+
+#redes {
+    height: 30px;
+    width: 110px;
+    position: relative;
+    bottom:100%;
+}
+
+#redes ul {
+    margin-left:12px;
+    margin-top: 3px;
+    padding-left: 0px;
+}
+
+#redes ul a {
+    display:inline;
+}
+
+#redes img{
+    height: 22px;
+    margin-right: 10px;
+}
+
+#legal {
+    margin-top: 10%;
+    left: 8px;
+    font-size:small;
+}
+
+#info_contacto{
+    height: 70px;
+    width: 280px;
+    left: 300px;
+    bottom: 121px;
+}
+
+#datos {
+    top: 10px;
+    left: 4%;
+}
+
+#datos p {
+    font-size: 14px;
+    height: 16px;
+}
+
+img#mail {
+    height: 21px;
+    margin-right: 6px;
+    margin-top: 0px;
+}
+
+#datos a{
+    font-size: 14px;
+}
+
+/************************** SECCION CONTACTO ***********************************/
+
+#contacto {
+    padding-top: 40px;
+    height: auto;
+}
+
+h2{
+    font-size: 45px;
+    text-decoration: 2px underline;
+    margin-bottom: 5%;
+} 
+
+#formulario {
+    height: auto;
+    width: 80%;
+    padding: 25px;
+    padding-bottom: 10px;
+}
+
+#formulario li,  h4{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+input[type=text] {
+    height: 23px;
+    width: 50%; 
+    margin-left: 3px;
+}
+
+input[type=radio] {
+    margin-right: 40px;
+}
+
+textarea {
+    font-size: 15px;
+    height:120px;
+    min-width: 68%;
+    max-height: 120px;
+    min-height: 120px;
+}
+
+::placeholder{
+    text-indent: 1.5%;
+    font-size: 12.5px;
+}
+
+#correo {
+    font-size: 14px;
+    width: 50%;
+}
+
+input[type=submit] {
+    margin-top: 35px;
+    font-size: 18px; 
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 8px; 
+}
+
+input[type=submit]:hover {
+    font-size: 19px;
+}
+
+/***************************************** SECCION VIAJES ****************************************/
+
+#viajes {
+    height: 1320px;
+}
+
+.imagen4{
+    margin-bottom: 15%;
+}
+
+} /* Fin responsive design*/
+
+
+/*********************************************************************************************/
+/***********************  R E S P O N S I V E   D E S I G N   2  ********************************/
+/*********************************************************************************************/
+
+@media all and (max-width: 599px) {
+
+    /* SECCION INICIO */
+
+section, footer, #cabecera{
+    width: 90%;
+}
+ 
+header{
+    height: 45px;
+} 
+
+#logo {
+    width: 50px;
+    height: 40px;
+}
+
+#logo img {
+    margin-top: 15%;
+    margin-left: 0;
+    height: 80%;
+    width: 70%;
+}
+
+#botonera {
+    height: 45px;
+    width: auto;
+}
+
+#botonera ul {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+ul li a {
+    font-size: 12px;
+    line-height: 45px;
+	height: 45px;
+    width: auto;
+}
+
+ul li a:hover {
+    font-size: 9px;
+}
+
+section#inicio {
+    height: auto;
+} 
+
+div.imagen1 {
+    padding-top: 60px;
+    width: auto;
+    height: 280px;
+}
+
+.texto1 {
+    width: auto;
+    height:auto;
+    margin-left: 140px;
+    margin-top: 80px; 
+}
+
+h1 {
+    font-size: 32px;   
+}
+
+.imagen2 {
+    width: auto;
+    height: auto;
+}
+
+.imagen3 {
+    width: auto;
+    height: auto;
+}
+
+footer {
+    height: 70px;
+}
+
+#redes {
+    height: 30px;
+    width: 110px;
+    position: relative;
+    bottom:100%;
+}
+
+#redes ul {
+    margin-left:12px;
+    margin-top: 3px;
+    padding-left: 0px;
+}
+
+#redes ul a {
+    display:inline;
+}
+
+#redes img{
+    height: 19px;
+    margin-right: 10px;
+}
+
+#legal {
+    margin-top: 12%;
+    left: 8px;
+    font-size:x-small;
+}
+
+#info_contacto{
+    height: 70px;
+    width: 200px;
+    left: 236px;
+    bottom: 112px;
+}
+
+#datos {
+    top: 10px;
+    left: 4%;
+}
+
+#datos p {
+    font-size: 11px;
+    height: 16px;
+}
+
+img#mail {
+    height: 16px;
+    margin-right: 6px;
+    margin-top: 0px;
+}
+
+#datos a{
+    font-size: 11px;
+}
+
+/************************** SECCION CONTACTO ***********************************/
+
+#contacto {
+    padding-top: 40px;
+    height: auto;
+}
+
+h2{
+    font-size: 45px;
+    text-decoration: 2px underline;
+    margin-bottom: 5%;
+} 
+
+#formulario {
+    height: auto;
+    width: 80%;
+    padding: 25px;
+    padding-bottom: 10px;
+}
+
+#formulario li,  h4{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+input[type=text] {
+    height: 23px;
+    width: 50%; 
+    margin-left: 3px;
+}
+
+input[type=radio] {
+    margin-right: 40px;
+}
+
+textarea {
+    font-size: 15px;
+    height:120px;
+    min-width: 68%;
+    max-height: 120px;
+    min-height: 120px;
+}
+
+::placeholder{
+    text-indent: 1.5%;
+    font-size: 12.5px;
+}
+
+#correo {
+    font-size: 14px;
+    width: 50%;
+}
+
+input[type=submit] {
+    margin-top: 35px;
+    font-size: 18px; 
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 8px; 
+}
+
+input[type=submit]:hover {
+    font-size: 19px;
+}
+
+/***************************************** SECCION VIAJES ****************************************/
+
+#viajes {
+    padding-top: 35px;
+    height:auto;
+    padding-bottom: 30px;
+}
+
+#galeria {
+    margin-top: 30px;
+}
+
+.imagen4{
+    display: block;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+} /* Fin responsive design 2*/
