@@ -3,11 +3,11 @@ Curso de Desarrollo Web en Html5 y Css3 - Centro de e-Learning UTN.BA
 
 # Evaluación Integradora Módulo 1
 
-   Desarrollar en HTML5 y CSS la maquetación de la página de inicio de un sitio web que utilizarán para el desarrollo del Proyecto Final (la temática es libre).
-.: Elegir el Model-box adecuado teniendo en cuenta las características de diseño.
-.: Se pueden combinar diferentes posicionamientos para lograr la estructura de diseño deseada.
-.: Incluir una hoja de estilo en cascada (css) externo con la declaración de estilo de estructuras vinculada a la Web.
-.: Extensión .css
+   Desarrollar en HTML5 y CSS la maquetación de la página de inicio de un sitio web que utilizarán para el desarrollo del Proyecto Final (la temática es libre).     
+.: Elegir el Model-box adecuado teniendo en cuenta las características de diseño.   
+.: Se pueden combinar diferentes posicionamientos para lograr la estructura de diseño deseada.     
+.: Incluir una hoja de estilo en cascada (css) externo con la declaración de estilo de estructuras vinculada a la Web.     
+.: Extensión .css.   
 ## Proceso de desarrollo:
    1. Elegir la tématica del sitio a desarrollar
    2. Elaborar el boceto (distribución de contenido en la pantalla)
